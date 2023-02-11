@@ -108,3 +108,64 @@
         box-shadow: 1px 1px 1px 1px white;
         filter: drop-shadow(0 0 0.25rem #ffb168);
     }
+
+    .Disimages{
+        display: flex;
+        justify-content: space-between;
+        height: 600px;
+    }
+
+    .CardRow1{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .CardRow2{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .BookTableDiv{
+        height: 800px;
+        width: 1450px;
+
+    }
+
+    .BookTable{
+        display: block;
+        float: left;
+        height: 600px;
+        margin-top: 100px;
+        margin-left: 100px;
+        margin-bottom: 50px;
+        padding: 2px;
+        box-shadow:15px 15px #efa765;
+    }
+
+    .BookTableText{
+        display: block;
+        float: right;
+        font-size: 30px;
+        border: 2px solid white;
+        color: white;
+        background-color: #232533;
+        margin-top: 350px;
+        margin-right: 200px;
+        margin-bottom: 100px;
+        padding: 20px;
+    }
+
+    .Featured{
+        float: left;
+        color: #ffb168;
+        font-size: 40px;
+        font-weight: bold;
+        margin-left: 150px;
+        margin-right: 300px;
+        margin-top: 150px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .FeaturedImg{
+        float: right;
+    }
