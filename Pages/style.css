@@ -216,3 +216,59 @@
         display: block;
 
     }
+
+    .Featured3{
+        float: left;
+        color: #ffb168;
+        font-size: 40px;
+        font-weight: bold;
+        margin-left: 150px;
+        margin-right: 200px;
+        margin-top: 150px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .FeaturedImg3{
+        float: right;
+    }
+
+    .MakeReservation{
+        float: right;
+        font-size: 30px;
+        border: 2px solid white;
+        color: white;
+        background-color: #232533;
+        margin-top: 150px;
+        margin-right: 50px;
+        margin-left: 200px;
+        margin-bottom: 100px;
+        padding: 20px;
+    }
+
+    .Meet{
+        margin-top: 150px;
+    }
+
+    .TeamDiv{
+        color: #ffb168;
+        font-size: 40px;
+        margin-bottom: 50px;
+        padding: 5px;
+        text-decoration: underline;
+    }
+
+    .TeamCard{
+        display: inline-block;
+        height: 350px;
+        width: 250px;
+        border: 2px solid rgba(0, 0, 0, 0.289);
+        border-radius: 5px;
+        box-shadow: 2px grey;
+        margin: 10px;
+        margin-top: 50px;
+        margin-left: 15px;
+        padding: 5px;
+        background-color: #111424;
+    }
+
+ 
