@@ -186,3 +186,33 @@
         margin-right: 2px;
         margin-left: 60px;
     }
+
+    .TeamPhoto{
+        height: 200px; 
+        padding-top: 5px; 
+        padding-left: 15px; 
+        padding-right: 15px;
+        filter: drop-shadow(0 0 0.10rem #ffb168);
+    }
+
+    .TeamName{
+        font-size: 25px;
+        color: #ffb168;
+        font-family: cursive;
+    }
+
+    .TeamLoc{
+        font-size: 10px;
+        color: #efa765;
+        font-family: cursive;
+    }
+
+    .Collab{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .FeaturedDiv{
+        display: block;
+
+    }
