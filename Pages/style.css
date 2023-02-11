@@ -1,0 +1,25 @@
+    .navbar{
+        display: block;
+        border: 2px solid #232533;
+        position: relative;
+        margin: 10px;
+        height: 120px;
+        width: 1500px;
+        background-color: #2325339d;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .Sociamedia{
+        display: inline-block;
+        height: 35px;
+        margin-top: 50px;
+    }
+
+    .ProjectName{
+        font-family: cursive;
+        font-size: 60px;
+        color: black;
+    }
+
+    
