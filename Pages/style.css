@@ -298,5 +298,52 @@
         background-color: #232533;
     }
 
+    .FoodCard{
+        padding: 15px;
+        margin-top: 50px;
+        height: 450px;
+        width: 450px;
+        margin: 2px 2px 2px 2px solid #232533;
+        border: 2px dashed black;
+        background-color: #232533;
+    }
+
+    .ShopImage{
+        box-shadow: 5px 5px rgb(69, 17, 17);
+    }
+
+    .ShopName{
+        font-size: 40px; 
+        color: bisque;
+    }
+
+    .ShopAddress{
+        font-size: 25px; 
+        color: bisque;
+    }
+
+    .Menubtn{
+        height: 80px;
+        width: 150px;
+        border: 2px solid whitesmoke;
+        border-radius: 10%;
+        font-size: 30px;
+        padding: 10px;
+        color: azure;
+        background-color: #232533;
+    }
+
+    .Buybtn{
+        height: 80px;
+        width: 150px;
+        border: 2px solid whitesmoke;
+        border-radius: 10%;
+        font-size: 30px;
+        padding: 10px;
+        color: azure;
+        background-color: #232533;
+    }
+
+
 
  
