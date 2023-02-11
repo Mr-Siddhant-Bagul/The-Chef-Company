@@ -86,3 +86,25 @@
         background-color: #232533;
         border: 1px solid black;
     }
+
+    .Slogan{
+        font-family: cursive;
+        font-size: 30px;
+        font-style: oblique;
+        color:#ffb168;
+        margin-left: 50px;
+    }
+
+    .SCards{
+        display: inline-block;
+        justify-content: space-evenly;
+        height: 100px;
+        width: 150px;
+        border: 2px solid white;
+        background-color: white;
+        margin-left: 40px;
+        padding: 5px;
+        border-radius: 15px;
+        box-shadow: 1px 1px 1px 1px white;
+        filter: drop-shadow(0 0 0.25rem #ffb168);
+    }
