@@ -169,3 +169,20 @@
     .FeaturedImg{
         float: right;
     }
+
+    .Featured2{
+        float: right;
+        color: #ffb168;
+        font-size: 40px;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-left: 150px;
+        margin-top: 150px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .FeaturedImg2{
+        float: left;
+        margin-right: 2px;
+        margin-left: 60px;
+    }
