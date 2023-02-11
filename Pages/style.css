@@ -22,4 +22,38 @@
         color: black;
     }
 
-    
+    background{
+        background: url(../Images/toppng.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 50%;
+        margin-top: 0%;
+        margin-bottom: 05px;
+    }
+
+
+    .headerline{
+        height: 450px;
+        width: 1200px;
+        color: #ffb168;
+        font-size: 80px;
+        font-weight: bold;
+        margin-left: 60px;
+        margin-bottom: 10px;
+        margin-top: 1px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .Details{
+        display: block;
+        height: 450px;
+        margin: 2px 2px 2px 2px;
+        padding: 2px;
+        background-color: whitesmoke;
+    }
+
+    .detailsStory{
+        float: left;
+        width: 900px;
+        padding: 20px;
+    }
