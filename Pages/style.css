@@ -57,3 +57,32 @@
         width: 900px;
         padding: 20px;
     }
+
+    .DetailsLogo{
+        height: 200px;
+        margin-top: 120px;
+        padding-left: 90px;
+        filter: drop-shadow(0 0 0.05rem azure);
+    }
+
+    .OurDelStory{
+        font-family: cursive;
+        font-size: 25px;
+        font-style: oblique;
+        color: black;
+        text-decoration: underline;
+    }
+
+    .OurStory{
+        font-family: cursive;
+        font-size: 20px;
+        font-style: oblique;
+        color: black(245, 245, 245, 0.807);
+    }
+
+    .ShopsBorder{
+        height: 400px;
+        width: 1500px;
+        background-color: #232533;
+        border: 1px solid black;
+    }
