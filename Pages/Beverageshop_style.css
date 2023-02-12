@@ -1,0 +1,36 @@
+.heading{
+    color: white;
+    font-size: 38px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+.every{
+    background-image: url(https://products0.imgix.drizly.com/red_underline_desktop.svg);
+    background-position: 50% 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 18px;
+}
+.search-bar{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.search-bar-text{
+    width: 400px;
+    height: 40px;
+    border-radius: 20px 0 0 20px;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+}
+.search-arrow{
+    display: block;
+    width: 40px;
+    height: 43px;
+    font-size: 25px;
+    color: black;
+    background-color: aliceblue;
+    border-radius: 0 20px 20px 0;
+}
