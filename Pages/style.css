@@ -343,3 +343,37 @@
         color: azure;
         background-color: #232533;
     }
+    .banner-dis-container
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+   
+      height: 350px;
+      text-align: center;
+    }
+    .banner-img
+    {
+        height: 500px;
+        margin-right: 20px;
+    }
+    .banner-img-container
+    {
+        margin-right: 30px;
+    }
+    .banner-title
+    {
+        font-size: 70px;
+        text-align: center;
+        margin-left: 20px;
+    }
+    .banner-span
+    {
+        color: #efa765;
+    }
+    .title-discription
+    {
+        font-size: 40px;
+        color: white;
+        text-align: center;
+    }
