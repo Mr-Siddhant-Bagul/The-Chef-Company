@@ -292,7 +292,7 @@
     height: 650px;
     width: 450px;
     margin: 2px 2px 2px 2px solid #232533;
-    border: 2px dashed black;
+    border: 2px dashed #232533;
     background-color: #232533;
 }
 
@@ -344,21 +344,21 @@
 
 .LogDiv{
     display: flex;
-    justify-content: space-around;
 }
 
 .Login{ 
-    height: 600px;
-    width: 400px;
-    margin-left: 10px;
+    height: 00px;
+    width: 450px;
+    margin-left: 150px;
 }
 
 .LoginBG{
-      width: 950px; 
+      width: 850px; 
+      height: 500px;
 }
 
 .LoginContent{
-    color: #efa765;
+    color: crimson;
     font-size: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -375,20 +375,45 @@
     font-size: 20px;
     color: #ffb168;
     margin-top: 30px;
+    margin-left: 50px;
 }
 
 .InputPhone{
     font-size: 25px;
     color: black;
     margin-top: 05px;
-    background-color: rgba(240, 255, 255, 0.61);
+    background-color: azure;
     width: 400px;
 }
 
-.Fpass{
-    
-    color: #efa765;
+.signupdiv{
+    float: right;
+    height: 900px;
+    width: 700px;
+    background-color: #111424;
+    margin-right: 35px;
+    margin-top: 50px;
+    border-radius: 25px;
+    border: 10px 10px 10px 10px solid white;
 }
+
+.logosign{
+    display: flex;
+}
+
+.SignupName{
+    color: crimson;
+    font-size: 80px;
+    margin-top: 15px;
+}
+
+.TagSign{
+    color: whitesmoke;
+    font-size: 40px;
+    font-family: cursive;
+    margin-left: 25px;
+}
+
 
     
 
