@@ -342,5 +342,56 @@
     background-color: #232533;
 }
 
+.LogDiv{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Login{ 
+    height: 600px;
+    width: 400px;
+    margin-left: 10px;
+}
+
+.LoginBG{
+      width: 950px; 
+}
+
+.LoginContent{
+    color: #efa765;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.LoginContent2{
+    color: azure;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+
+.PhoneNo{
+    font-size: 20px;
+    color: #ffb168;
+    margin-top: 30px;
+}
+
+.InputPhone{
+    font-size: 25px;
+    color: black;
+    margin-top: 05px;
+    background-color: rgba(240, 255, 255, 0.61);
+    width: 400px;
+}
+
+.Fpass{
+    
+    color: #efa765;
+}
+
+    
+
+
 
 
