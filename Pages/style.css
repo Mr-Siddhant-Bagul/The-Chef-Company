@@ -331,67 +331,6 @@
     background-color: #232533;
 }
 
-<<<<<<< HEAD
-    .ShopAddress{
-        font-size: 25px; 
-        color: bisque;
-    }
-
-    .Menubtn{
-        height: 80px;
-        width: 150px;
-        border: 2px solid whitesmoke;
-        border-radius: 10%;
-        font-size: 30px;
-        padding: 10px;
-        color: azure;
-        background-color: #232533;
-    }
-
-    .Buybtn{
-        height: 80px;
-        width: 150px;
-        border: 2px solid whitesmoke;
-        border-radius: 10%;
-        font-size: 30px;
-        padding: 10px;
-        color: azure;
-        background-color: #232533;
-    }
-    .banner-dis-container
-    {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-      height: 350px;
-      text-align: center;
-    }
-    .banner-img
-    {
-        height: 500px;
-        margin-right: 20px;
-    }
-    .banner-img-container
-    {
-        margin-right: 30px;
-    }
-    .banner-title
-    {
-        font-size: 70px;
-        text-align: center;
-        margin-left: 20px;
-    }
-    .banner-span
-    {
-        color: #efa765;
-    }
-    .title-discription
-    {
-        font-size: 40px;
-        color: white;
-        text-align: center;
-    }
-=======
 .Buybtn{
     height: 80px;
     width: 150px;
@@ -403,6 +342,56 @@
     background-color: #232533;
 }
 
+.LogDiv{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Login{ 
+    height: 600px;
+    width: 400px;
+    margin-left: 10px;
+}
+
+.LoginBG{
+      width: 950px; 
+}
+
+.LoginContent{
+    color: #efa765;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.LoginContent2{
+    color: azure;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+
+.PhoneNo{
+    font-size: 20px;
+    color: #ffb168;
+    margin-top: 30px;
+}
+
+.InputPhone{
+    font-size: 25px;
+    color: black;
+    margin-top: 05px;
+    background-color: rgba(240, 255, 255, 0.61);
+    width: 400px;
+}
+
+.Fpass{
+    
+    color: #efa765;
+}
+
+    
 
 
->>>>>>> 5d5b4660ee00436399e13dd2a804e80bb5158625
+
+
