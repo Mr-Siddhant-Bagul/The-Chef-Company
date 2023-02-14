@@ -3,7 +3,7 @@
     font-size: 38px;
     font-family:Arial, Helvetica, sans-serif;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 .every{
     background-image: url(https://products0.imgix.drizly.com/red_underline_desktop.svg);
@@ -12,25 +12,27 @@
     background-repeat: no-repeat;
     padding-bottom: 18px;
 }
-.search-bar{
+.display-img{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     margin-top: 50px;
 }
-.search-bar-text{
-    width: 400px;
-    height: 40px;
-    border-radius: 20px 0 0 20px;
-    font-size: 23px;
-    font-family: Arial, Helvetica, sans-serif;
-    border: none;
+.shop-card{
+    border: 2px solid black;
+    width: 360px;
 }
-.search-arrow{
+.shop-name{
+    color: #ccccff;
+    text-align: center;
+    font-size: 40px;
+}
+.shop-address{
+    color: #ccccff;
+    font-size: 22px;
+    text-align: center;
+}
+.ShopImage-pearl{
     display: block;
-    width: 40px;
-    height: 43px;
-    font-size: 25px;
-    color: black;
-    background-color: aliceblue;
-    border-radius: 0 20px 20px 0;
+    width: 370px;
+    height: 225px;
 }
