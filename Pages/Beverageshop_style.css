@@ -36,3 +36,17 @@
     width: 370px;
     height: 225px;
 }
+.TopDisplay-bevereges{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.slogen{
+    color: white;
+    font-size: 50px;
+    padding-top: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.gold{
+    color: gold;
+}
