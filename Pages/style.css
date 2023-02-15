@@ -1,349 +1,422 @@
-    .navbar{
-        display: block;
-        border: 2px solid #232533;
-        position: relative;
-        margin: 10px;
-        height: 120px;
-        width: 1500px;
-        background-color: #2325339d;
-        margin-left: auto;
-        margin-right: auto;
-    }
+.navbar{
+    display: block;
+    border: 2px solid #232533;
+    position: relative;
+    margin: 10px;
+    height: 120px;
+    width: 1500px;
+    background-color: #2325339d;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-    .Sociamedia{
-        display: inline-block;
-        height: 35px;
-        margin-top: 50px;
-    }
+.Sociamedia{
+    display: inline-block;
+    height: 35px;
+    margin-top: 50px;
+}
 
-    .ProjectName{
-        font-family: cursive;
-        font-size: 60px;
-        color: black;
-    }
+.ProjectName{
+    font-family: cursive;
+    font-size: 60px;
+    color: black;
+}
 
-    .background{
-        background: url(../Images/toppng.png);
-        background-repeat: no-repeat;
-        background-position: right;
-        background-size: 50%;
-        margin-top: 0%;
-        margin-bottom: 05px;
-    }
-
-
-    .headerline{
-        height: 450px;
-        width: 1200px;
-        color: #ffb168;
-        font-size: 80px;
-        font-weight: bold;
-        margin-left: 60px;
-        margin-bottom: 10px;
-        margin-top: 1px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-
-    .Details{
-        display: block;
-        height: 450px;
-        margin: 2px 2px 2px 2px;
-        padding: 2px;
-        background-color: whitesmoke;
-    }
-
-    .detailsStory{
-        float: left;
-        width: 900px;
-        padding: 20px;
-    }
-
-    .DetailsLogo{
-        height: 200px;
-        margin-top: 120px;
-        padding-left: 90px;
-        filter: drop-shadow(0 0 0.05rem azure);
-    }
-
-    .OurDelStory{
-        font-family: cursive;
-        font-size: 25px;
-        font-style: oblique;
-        color: black;
-        text-decoration: underline;
-    }
-
-    .OurStory{
-        font-family: cursive;
-        font-size: 20px;
-        font-style: oblique;
-        color: black(245, 245, 245, 0.807);
-    }
-
-    .ShopsBorder{
-        height: 400px;
-        width: 1500px;
-        background-color: #232533;
-        border: 1px solid black;
-    }
-
-    .Slogan{
-        font-family: cursive;
-        font-size: 30px;
-        font-style: oblique;
-        color:#ffb168;
-        margin-left: 50px;
-    }
-
-    .SCards{
-        display: inline-block;
-        justify-content: space-evenly;
-        height: 100px;
-        width: 150px;
-        border: 2px solid white;
-        background-color: white;
-        margin-left: 40px;
-        padding: 5px;
-        border-radius: 15px;
-        box-shadow: 1px 1px 1px 1px white;
-        filter: drop-shadow(0 0 0.25rem #ffb168);
-    }
-
-    .Disimages{
-        display: flex;
-        justify-content: space-between;
-        height: 600px;
-    }
-
-    .CardRow1{
-        display: flex;
-        justify-content: space-evenly;
-    }
-
-    .CardRow2{
-        display: flex;
-        justify-content: space-evenly;
-    }
-
-    .BookTableDiv{
-        height: 800px;
-        width: 1450px;
-
-    }
-
-    .BookTable{
-        display: block;
-        float: left;
-        height: 600px;
-        margin-top: 100px;
-        margin-left: 100px;
-        margin-bottom: 50px;
-        padding: 2px;
-        box-shadow:15px 15px #efa765;
-    }
-
-    .BookTableText{
-        display: block;
-        float: right;
-        font-size: 30px;
-        border: 2px solid white;
-        color: white;
-        background-color: #232533;
-        margin-top: 350px;
-        margin-right: 200px;
-        margin-bottom: 100px;
-        padding: 20px;
-    }
-
-    .Featured{
-        float: left;
-        color: #ffb168;
-        font-size: 40px;
-        font-weight: bold;
-        margin-left: 150px;
-        margin-right: 300px;
-        margin-top: 150px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-
-    .FeaturedImg{
-        float: right;
-    }
-
-    .Featured2{
-        float: right;
-        color: #ffb168;
-        font-size: 40px;
-        font-weight: bold;
-        margin-top: 20px;
-        margin-left: 150px;
-        margin-top: 150px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-
-    .FeaturedImg2{
-        float: left;
-        margin-right: 2px;
-        margin-left: 60px;
-    }
-
-    .TeamPhoto{
-        height: 200px; 
-        padding-top: 5px; 
-        padding-left: 15px; 
-        padding-right: 15px;
-        filter: drop-shadow(0 0 0.10rem #ffb168);
-    }
-
-    .TeamName{
-        font-size: 25px;
-        color: #ffb168;
-        font-family: cursive;
-    }
-
-    .TeamLoc{
-        font-size: 10px;
-        color: #efa765;
-        font-family: cursive;
-    }
-
-    .Collab{
-        display: flex;
-        justify-content: space-evenly;
-    }
-
-    .FeaturedDiv{
-        display: block;
-
-    }
-
-    .Featured3{
-        float: left;
-        color: #ffb168;
-        font-size: 40px;
-        font-weight: bold;
-        margin-left: 150px;
-        margin-right: 200px;
-        margin-top: 150px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-
-    .FeaturedImg3{
-        float: right;
-    }
-
-    .MakeReservation{
-        float: right;
-        font-size: 30px;
-        border: 2px solid white;
-        color: white;
-        background-color: #232533;
-        margin-top: 150px;
-        margin-right: 50px;
-        margin-left: 200px;
-        margin-bottom: 100px;
-        padding: 20px;
-    }
-
-    .Meet{
-        margin-top: 150px;
-    }
-
-    .TeamDiv{
-        color: #ffb168;
-        font-size: 40px;
-        margin-bottom: 50px;
-        padding: 5px;
-        text-decoration: underline;
-    }
-
-    .TeamCard{
-        display: inline-block;
-        height: 350px;
-        width: 250px;
-        border: 2px solid rgba(0, 0, 0, 0.289);
-        border-radius: 5px;
-        box-shadow: 2px grey;
-        margin: 10px;
-        margin-top: 50px;
-        margin-left: 15px;
-        padding: 5px;
-        background-color: #111424;
-    }
-
-    .TopDisplay{
-        margin-top: 100px; 
-    }
-
-    .ShopTagline{
-        align-items: center;
-        color: #ffb168;
-        font-size: 40px;
-        font-weight: bolder;
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
-
-    .ShopCardDiv{
-        display: flex;
-        justify-content: space-evenly;
-    }
-
-    .Shopcard{
-        padding: 15px;
-        margin-top: 50px;
-        height: 650px;
-        width: 450px;
-        margin: 2px 2px 2px 2px solid #232533;
-        border: 2px dashed black;
-        background-color: #232533;
-    }
-
-    .FoodCard{
-        padding: 15px;
-        margin-top: 50px;
-        height: 450px;
-        width: 450px;
-        margin: 2px 2px 2px 2px solid #232533;
-        border: 2px dashed black;
-        background-color: #232533;
-    }
-
-    .ShopImage{
-        box-shadow: 5px 5px rgb(69, 17, 17);
-    }
-
-    .ShopName{
-        font-size: 40px; 
-        color: bisque;
-    }
-
-    .ShopAddress{
-        font-size: 25px; 
-        color: bisque;
-    }
-
-    .Menubtn{
-        height: 80px;
-        width: 150px;
-        border: 2px solid whitesmoke;
-        border-radius: 10%;
-        font-size: 30px;
-        padding: 10px;
-        color: azure;
-        background-color: #232533;
-    }
-
-    .Buybtn{
-        height: 80px;
-        width: 150px;
-        border: 2px solid whitesmoke;
-        border-radius: 10%;
-        font-size: 30px;
-        padding: 10px;
-        color: azure;
-        background-color: #232533;
-    }
+.background{
+    background: url(../Images/toppng.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 50%;
+    margin-top: 0%;
+    margin-bottom: 05px;
+}
 
 
+.headerline{
+    height: 450px;
+    width: 1200px;
+    color: #ffb168;
+    font-size: 80px;
+    font-weight: bold;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    margin-top: 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
- 
+.Details{
+    display: block;
+    height: 450px;
+    margin: 2px 2px 2px 2px;
+    padding: 2px;
+    background-color: whitesmoke;
+}
+
+.detailsStory{
+    float: left;
+    width: 900px;
+    padding: 20px;
+}
+
+.DetailsLogo{
+    height: 200px;
+    margin-top: 120px;
+    padding-left: 90px;
+    filter: drop-shadow(0 0 0.05rem azure);
+}
+
+.OurDelStory{
+    font-family: cursive;
+    font-size: 25px;
+    font-style: oblique;
+    color: black;
+    text-decoration: underline;
+}
+
+.OurStory{
+    font-family: cursive;
+    font-size: 20px;
+    font-style: oblique;
+    color: black(245, 245, 245, 0.807);
+}
+
+.ShopsBorder{
+    height: 400px;
+    width: 1500px;
+    background-color: #232533;
+    border: 1px solid black;
+}
+
+.Slogan{
+    font-family: cursive;
+    font-size: 30px;
+    font-style: oblique;
+    color:#ffb168;
+    margin-left: 50px;
+}
+
+.SCards{
+    display: inline-block;
+    justify-content: space-evenly;
+    height: 100px;
+    width: 150px;
+    border: 2px solid white;
+    background-color: white;
+    margin-left: 40px;
+    padding: 5px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px 1px white;
+    filter: drop-shadow(0 0 0.25rem #ffb168);
+}
+
+.Disimages{
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+}
+.CardRow1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.CardRow2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.BookTableDiv{
+    height: 800px;
+    width: 1450px;
+
+}
+
+.BookTable{
+    display: block;
+    float: left;
+    height: 600px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    padding: 2px;
+    box-shadow:15px 15px #efa765;
+}
+
+.BookTableText{
+    display: block;
+    float: right;
+    font-size: 30px;
+    border: 2px solid white;
+    color: white;
+    background-color: #232533;
+    margin-top: 350px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+    padding: 20px;
+}
+
+.Featured{
+    float: left;
+    color: #ffb168;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 150px;
+    margin-right: 300px;
+    margin-top: 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.FeaturedImg{
+    float: right;
+}
+
+.Featured2{
+    float: right;
+    color: #ffb168;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-top: 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.FeaturedImg2{
+    float: left;
+    margin-right: 2px;
+    margin-left: 60px;
+}
+
+.TeamPhoto{
+    height: 200px; 
+    padding-top: 5px; 
+    padding-left: 15px; 
+    padding-right: 15px;
+    filter: drop-shadow(0 0 0.10rem #ffb168);
+}
+
+.TeamName{
+    font-size: 25px;
+    color: #ffb168;
+    font-family: cursive;
+}
+
+.TeamLoc{
+    font-size: 10px;
+    color: #efa765;
+    font-family: cursive;
+}
+
+.Collab{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.FeaturedDiv{
+    display: block;
+
+}
+
+.Featured3{
+    float: left;
+    color: #ffb168;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 150px;
+    margin-right: 200px;
+    margin-top: 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.FeaturedImg3{
+    float: right;
+}
+
+.MakeReservation{
+    float: right;
+    font-size: 30px;
+    border: 2px solid white;
+    color: white;
+    background-color: #232533;
+    margin-top: 150px;
+    margin-right: 50px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+    padding: 20px;
+}
+
+.Meet{
+    margin-top: 150px;
+}
+
+.TeamDiv{
+    color: #ffb168;
+    font-size: 40px;
+    margin-bottom: 50px;
+    padding: 5px;
+    text-decoration: underline;
+}
+
+.TeamCard{
+    display: inline-block;
+    height: 350px;
+    width: 250px;
+    border: 2px solid rgba(0, 0, 0, 0.289);
+    border-radius: 5px;
+    box-shadow: 2px grey;
+    margin: 10px;
+    margin-top: 50px;
+    margin-left: 15px;
+    padding: 5px;
+    background-color: #111424;
+}
+.TopDisplay{
+    margin-top: 100px; 
+}
+
+.ShopTagline{
+    align-items: center;
+    color: #ffb168;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.ShopCardDiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Shopcard{
+    padding: 15px;
+    margin-top: 50px;
+    height: 650px;
+    width: 450px;
+    margin: 2px 2px 2px 2px solid #232533;
+    border: 2px dashed #232533;
+    background-color: #232533;
+}
+
+.FoodCard{
+    padding: 15px;
+    margin-top: 50px;
+    height: 450px;
+    width: 450px;
+    margin: 2px 2px 2px 2px solid #232533;
+    border: 2px dashed black;
+    background-color: #232533;
+}
+
+.ShopImage{
+    box-shadow: 5px 5px rgb(69, 17, 17);
+}
+
+.ShopName{
+    font-size: 40px; 
+    color: bisque;
+}
+
+.ShopAddress{
+    font-size: 25px; 
+    color: bisque;
+}
+
+.Menubtn{
+    height: 80px;
+    width: 150px;
+    border: 2px solid whitesmoke;
+    border-radius: 10%;
+    font-size: 30px;
+    padding: 10px;
+    color: azure;
+    background-color: #232533;
+}
+
+.Buybtn{
+    height: 80px;
+    width: 150px;
+    border: 2px solid whitesmoke;
+    border-radius: 10%;
+    font-size: 30px;
+    padding: 10px;
+    color: azure;
+    background-color: #232533;
+}
+
+.LogDiv{
+    display: flex;
+}
+
+.Login{ 
+    height: 00px;
+    width: 450px;
+    margin-left: 150px;
+}
+
+.LoginBG{
+      width: 850px; 
+      height: 500px;
+}
+
+.LoginContent{
+    color: crimson;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.LoginContent2{
+    color: azure;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+
+.PhoneNo{
+    font-size: 20px;
+    color: #ffb168;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.InputPhone{
+    font-size: 25px;
+    color: black;
+    margin-top: 05px;
+    background-color: azure;
+    width: 400px;
+}
+
+.signupdiv{
+    float: right;
+    height: 900px;
+    width: 700px;
+    background-color: #111424;
+    margin-right: 35px;
+    margin-top: 50px;
+    border-radius: 25px;
+    border: 10px 10px 10px 10px solid white;
+}
+
+.logosign{
+    display: flex;
+}
+
+.SignupName{
+    color: crimson;
+    font-size: 80px;
+    margin-top: 15px;
+}
+
+.TagSign{
+    color: whitesmoke;
+    font-size: 40px;
+    font-family: cursive;
+    margin-left: 25px;
+}
+
+
+    
+
+
+
+
