@@ -414,9 +414,55 @@
     margin-left: 25px;
 }
 
+.Footer{
+    background: url(https://mobirise.com/extensions/restaurantm4/assets/images/background8.jpg);
+    background-blend-mode: overlay;
+    box-sizing: inherit;
+    background-color: #232533;
+    position: sticky;
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 400px;
+    width: 1500px; 
+    display: flex;   
+}
+
+.FooterAdd{
+    font-size: 30px;
+    font-family: cursive;
+    color: #efa765;
+    padding-left: 100px;
+    margin-right: 100px;
+    padding-top: 30px;
+}
+
+.OpenHours{
+    padding-top: 30px;
+    font-size: 25px;
+    font-family: cursive;
+    color: #efa765;
+    margin-left: 20px;
+}
+
+.OpenTimes{
+    padding-top: 100px;
+    font-size: 25px;
+    font-family: cursive;
+    color: #ffb168;
+    margin-left: 20px;
+    padding-top: 100px;
+}
+
+.Contactus{
+    padding-left: 100px;
+    padding-top: 30px;
+    font-size: 25px;
+    font-family: cursive;
+    color: #efa765;
+}
+
 
     
-
 
 
 
