@@ -42,13 +42,10 @@
     margin-top: 50px;
 }
 .slogen{
-    color: white;
+    color: #efa765;
     font-size: 50px;
     padding-top: 50px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.gold{
-    color: gold;
 }
 #beverage-food-card{
     width: 350px;
