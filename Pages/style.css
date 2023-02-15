@@ -353,12 +353,13 @@
 }
 
 .LoginBG{
-      width: 850px; 
+      width: 850px;
+      margin-top: 70px; 
       height: 500px;
 }
 
 .LoginContent{
-    color: crimson;
+    color: #efa765;
     font-size: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -374,8 +375,9 @@
 .PhoneNo{
     font-size: 20px;
     color: #ffb168;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: 50px;
+    font-family: cursive;
 }
 
 .InputPhone{
@@ -384,6 +386,7 @@
     margin-top: 05px;
     background-color: azure;
     width: 400px;
+    
 }
 
 .signupdiv{
@@ -402,7 +405,7 @@
 }
 
 .SignupName{
-    color: crimson;
+    color: #ffb168;
     font-size: 80px;
     margin-top: 15px;
 }
