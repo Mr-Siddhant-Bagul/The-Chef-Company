@@ -152,6 +152,7 @@
     margin-right: 200px;
     margin-bottom: 100px;
     padding: 20px;
+    border-radius: 0px 25px 0px 25px;
 }
 
 .Featured{
@@ -242,6 +243,7 @@
     margin-left: 200px;
     margin-bottom: 100px;
     padding: 20px;
+    border-radius: 0px 25px 0px 25px;
 }
 
 .Meet{
@@ -391,7 +393,7 @@
 
 .signupdiv{
     float: right;
-    height: 900px;
+    height: 1000px;
     width: 700px;
     background-color: #111424;
     margin-right: 35px;
@@ -418,14 +420,14 @@
 }
 
 .Footer{
-    background: url(https://mobirise.com/extensions/restaurantm4/assets/images/background8.jpg);
+    background: url(https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-blend-mode: overlay;
     box-sizing: inherit;
     background-color: #232533;
     position: sticky;
     background-position: 50% 50%;
     background-size: cover;
-    height: 400px;
+    height: 350px;
     width: 1500px; 
     display: flex;   
 }
@@ -433,17 +435,17 @@
 .FooterAdd{
     font-size: 30px;
     font-family: cursive;
-    color: #efa765;
-    padding-left: 100px;
-    margin-right: 100px;
-    padding-top: 30px;
+    color: white;
+    padding-left: 30px;
+    margin-right: 30px;
+    padding-top: 50px;
 }
 
 .OpenHours{
     padding-top: 30px;
     font-size: 25px;
     font-family: cursive;
-    color: #efa765;
+    color: white;
     margin-left: 20px;
 }
 
@@ -451,19 +453,52 @@
     padding-top: 100px;
     font-size: 25px;
     font-family: cursive;
-    color: #ffb168;
+    color: white;
     margin-left: 20px;
     padding-top: 100px;
 }
 
 .Contactus{
-    padding-left: 100px;
+    padding-left: 80px;
     padding-top: 30px;
     font-size: 25px;
     font-family: cursive;
-    color: #efa765;
+    color: white;
 }
 
+.Reachus{
+    padding-left: 35px;
+    padding-top: 30px;
+    font-size: 25px;
+    font-family: cursive;
+    color: white;
+}
+
+.Signupbtn{
+    height: 40px;
+    width: 150px;
+    border-color: black;
+    border-radius: 0px 25px 0px 25px;
+    background-color: black;
+    color: #efa765;
+    margin-top: 50px;
+    margin-left: 180px;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.loginbtn{
+    height: 40px;
+    width: 150px;
+    border-color: black;
+    border-radius: 0px 25px 0px 25px;
+    background-color: black;
+    color: #efa765;
+    margin-top: 50px;
+    margin-left: 1175px;
+    font-size: 30px;
+    padding: 5px;
+}
 
     
 
