@@ -393,7 +393,7 @@
 
 .signupdiv{
     float: right;
-    height: 900px;
+    height: 1000px;
     width: 700px;
     background-color: #111424;
     margin-right: 35px;
@@ -474,6 +474,31 @@
     color: white;
 }
 
+.Signupbtn{
+    height: 40px;
+    width: 150px;
+    border-color: black;
+    border-radius: 0px 25px 0px 25px;
+    background-color: black;
+    color: #efa765;
+    margin-top: 50px;
+    margin-left: 180px;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.loginbtn{
+    height: 40px;
+    width: 150px;
+    border-color: black;
+    border-radius: 0px 25px 0px 25px;
+    background-color: black;
+    color: #efa765;
+    margin-top: 50px;
+    margin-left: 1175px;
+    font-size: 30px;
+    padding: 5px;
+}
 
     
 
