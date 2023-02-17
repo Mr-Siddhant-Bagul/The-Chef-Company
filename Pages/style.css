@@ -273,6 +273,8 @@
 }
 .TopDisplay{
     margin-top: 100px; 
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .ShopTagline{
