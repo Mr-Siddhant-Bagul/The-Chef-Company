@@ -1,37 +1,216 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>
-            The Chef Company
-        </title>
-        <link href="style.css" rel="Stylesheet">
-    </head>
-    <style>
-        body{
-            background-color: #232533;
+
+<head>
+    <title>
+        The Chef Company
+    </title>
+    <link href="style.css" rel="Stylesheet">
+    <link rel="stylesheet" href="Beverageshop_style.css">
+</head>
+<style>
+    body {
+        background-color: #232533;
     }
-    </style>
-    <body>
-        <div class="navbar">
-            <img src="../Images/Logo.jpg" height="80px" style="float: left; margin-left: 50px;margin-top: 20px; filter: drop-shadow(0 0 0.25rem white);">
-            <b>
-                <a href="../index.html" style="color: #ffb168; text-decoration: none; margin-left: 150px; padding: 2px;">
-                    HOME
+</style>
+
+<body>
+    <div class="navbar">
+        <img src="../Images/Logo.jpg" height="80px"
+            style="float: left; margin-left: 50px;margin-top: 20px; filter: drop-shadow(0 0 0.25rem white);">
+        <b>
+            <a href="../index.html" style="color: #ffb168; text-decoration: none; margin-left: 150px; padding: 2px;">
+                HOME
+            </a>
+            <a href="./Login.html" style="color: #ffb168; text-decoration: none; margin-left: 150px;">
+                LOGIN
+            </a>
+            <a href="./SignUp.html" style="color: #ffb168; text-decoration: none; margin-left: 150px;">
+                SIGNUP
+            </a>
+        </b>
+        <span>
+            <img src="https://cdn-icons-png.flaticon.com/512/1177/1177566.png" class="Sociamedia" alt="Facebook"
+                style="margin-left: 300px;">
+            <img src="https://cdn-icons-png.flaticon.com/512/1177/1177585.png" class="Sociamedia" alt="Instgram"
+                style="margin-left: 20px;">
+            <img src="https://cdn-icons-png.flaticon.com/512/1177/1177491.png" class="Sociamedia" alt="Twitter"
+                style="margin-left: 20px;">
+            <img src="https://cdn-icons-png.flaticon.com/512/4980/4980096.png" class="Sociamedia" alt="Googleplay"
+                style="margin-left: 20px;">
+            <img src="https://cdn-icons-png.flaticon.com/512/668/668276.png" class="Sociamedia" alt="AppleStore"
+                style="margin-left: 20px;">
+        </span>
+    </div>
+    <div>
+        <h1 class="heading">
+            Drinks for <span class="every">every</span> Movement...
+        </h1>
+    </div>
+    <div class="display-img">
+        <img src="https://www.drinks-insight-network.com/wp-content/uploads/image-digitalinsightresearch/Active/2016June/nri/Drinks/Features/IDMF1612/shutterstock_152630081%20copy.jpg" height="400px"/>
+
+        <img src="https://www.travelandleisure.com/thmb/zT6ziYSTlSu1sl8bqSTHGpKkgwg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/alcohol-bottles-bar-STRONGESTLIQS9121-a5960ae2cdbf4a8481b1ea60847f2dcc.jpg" height="400px"/>
+    </div>
+
+    <div class="TopDisplay">
+        <center>
+            <font class="heading" style="font-size: 45px;">
+                Taste the goodness in our drink.
+            </font>
+        </center>
+    </div>
+
+    <div class="ShopCardDiv">
+        <span class="Shopcard">
+            <center>
+                <img src="https://content.jdmagicbox.com/comp/jaipur/f8/0141px141.x141.190523172703.j5f8/catalogue/the-light-house-cafe-jhotwara-jaipur-fast-food-delivery-services-0qzmwkn1nc.jpg" height="250px" class="ShopImage"><br><br>
+                <font class="ShopName">
+                    Light House Cafe
+                </font><br><br>
+                <font class="ShopAddress">
+                    Wardhaman Nagar, Nagpur
+                </font><br><br>
+                <img src="data:image/jpeg;base64,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" height="200px" class="ShopImage"><br><br>
+                <font class="Menubtn">
+                    Explore Menu
+                </font>
+            </center>
+        </span>
+
+        <span class="Shopcard">
+            <center>
+                <img src="https://slickpos.com/wp-content/uploads/2022/08/Big-Daddy-.png" height="250px" class="ShopImage"><br><br>
+                <font class="ShopName">
+                    Cravers Cafe
+                </font><br><br>
+                <font class="ShopAddress">
+                    Ayodhya Nagar, Nagpur
+                </font><br><br>
+                <img src="https://hips.hearstapps.com/hmg-prod/images/index-1553261901.jpg" height="200px" class="ShopImage"><br><br>
+                <a href="./BevarageFood.html" style="text-decoration: none;">
+                    <font class="Menubtn">
+                        Explore Menu
+                    </font>
                 </a>
-                <a href="./Login.html" style="color: #ffb168; text-decoration: none; margin-left: 150px;">
-                    LOGIN
-                </a>
-                <a href="./SignUp.html" style="color: #ffb168; text-decoration: none; margin-left: 150px;">
-                    SIGNUP
-                </a>          
-            </b>
-            <span>
-                <img src="https://cdn-icons-png.flaticon.com/512/1177/1177566.png" class="Sociamedia" alt="Facebook" style="margin-left: 300px;">
-                <img src="https://cdn-icons-png.flaticon.com/512/1177/1177585.png" class="Sociamedia" alt="Instgram" style="margin-left: 20px;">
-                <img src="https://cdn-icons-png.flaticon.com/512/1177/1177491.png" class="Sociamedia" alt="Twitter" style="margin-left: 20px;">
-                <img src="https://cdn-icons-png.flaticon.com/512/4980/4980096.png" class="Sociamedia" alt="Googleplay" style="margin-left: 20px;">
-                <img src="https://cdn-icons-png.flaticon.com/512/668/668276.png" class="Sociamedia" alt="AppleStore" style="margin-left: 20px;">
-            </span>
-        </div>
-    </body>
+            </center>
+        </span>
+
+        <span class="Shopcard">
+            <center>
+                <img src="https://img.restaurantguru.com/r762-SIGNATURE-CAFE-ARABIC-logo.jpg" height="240px" class="ShopImage"><br><br>
+                <font class="ShopName">
+                    Signature Cafe
+                </font><br><br>
+                <font class="ShopAddress">
+                    Wardhaman Nagar, Nagpur
+                </font><br><br>
+                <img src="https://avantgarde-spirits.com/wp-content/uploads/2021/06/06_TheGinGimlet-scaled.jpg" height="212px" class="ShopImage"><br><br>
+                <font class="Menubtn">
+                    Explore Menu
+                </font>
+            </center>
+        </span>
+    </div> <br><br><br>
+
+    <div class="ShopCardDiv">
+        <span class="Shopcard">
+            <center>
+                <img src="https://www.washingtonian.com/wp-content/uploads/2017/03/Dirty_Habit-1024x576-1024x576.jpg" height="250px" class="ShopImage"><br><br>
+                <font class="ShopName">
+                    I Cool Cafe
+                </font><br><br>
+                <font class="ShopAddress">
+                    Gittikhadan, Nagpur
+                </font><br><br>
+                <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/cjquvdxadxwrwwoibsle" height="200px" class="ShopImage"><br><br>
+                <font class="Menubtn">
+                    Explore Menu
+                </font>
+            </center>
+        </span>
+
+        <span class="Shopcard">
+            <center>
+                <img src="https://images.unsplash.com/photo-1603361513137-219be38712ed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8&w=1000&q=80" height="250px" class="ShopImage"><br><br>
+                <font class="ShopName">
+                    Starbucks
+                </font><br><br>
+                <font class="ShopAddress">
+                    Anand Park, Aundh, Pune
+                </font><br><br>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbkmPR1uTNThn1NMbi8e1IaAj2J7RIHzcYcA&usqp=CAU" height="200px" class="ShopImage" style="display: block; width: 270px;"><br><br>
+                    <font class="Menubtn">
+                        Explore Menu
+                    </font>
+            </center>
+        </span>
+
+        <span class="Shopcard">
+            <center>
+                <img src="https://archello.s3.eu-central-1.amazonaws.com/images/2021/02/04/da-bureau-must-restaurant-restaurants-archello.1612416651.7518.jpg" height="240px" class="ShopImage"><br><br>
+                <font class="ShopName">
+                    Cafe Infinity
+                </font><br><br>
+                <font class="ShopAddress">
+                    Gayatri Nagar, Nagpur
+                </font><br><br>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLFY_CWbRr0fvXcPsJQZFMegRVuAuZWDf2g6KV89H0q4Relzjpx0R0rjG6Ruv9cMXNwU8&usqp=CAU" height="212px" class="ShopImage"><br><br>
+                <font class="Menubtn">
+                    Explore Menu
+                </font>
+            </center>
+        </span>
+    </div><br><br><br>
+
+    <div class="Footer">
+        <span class="FooterAdd">
+            <img src="../Images/Logo.jpg" height="200px" style="margin-left: 10px; margin-top: 50px;"><br>
+        </span>
+        <span class="OpenHours">
+            <font>
+                Opening Hours:
+            </font><br><br>
+            <font>
+                Monday<br>
+                Tuesday<br>
+                Wednesday<br>
+                Thursday<br>
+                Friday<br>
+                Saturday<br>
+                Sunday<br>
+            </font>
+        </span>
+        <span class="OpenTimes">
+            <font>
+                8AM-11PM<br>
+                8AM-11PM<br>
+                8AM-11PM<br>
+                8AM-11PM<br>
+                8AM-11PM<br>
+                8AM-11PM<br>
+                Closed<br>
+            </font>
+        </span>
+        <span class="Contactus">
+            <font>
+                Contact Us:
+            </font><br><br>
+            <font>
+                Nagpur, Maharashtra
+            </font><br><br>
+            <font>
+                +91-7821011979
+            </font>
+        </span>
+        <span class="Reachus">
+            <font>
+                Reach to Us:
+            </font><br><br>
+            <font>
+                Thechefcompany@yourmail.com
+            </font><br>
+        </span>
+    </div>
+</body>
 </html>
