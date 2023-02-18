@@ -502,7 +502,86 @@
     padding: 5px;
 }
 
-    
+.topfood{
+    height: 120px;
+    width: 925px;
+    background-color: #232533;
+    margin-left: 300px;
+    margin-right: 300px;
+    border: #efa765 solid 1px;
+    box-shadow: 5px 5px 5px 5px #111424;
+    margin-bottom: 75px;
+    margin-top: 75px;
+}
+
+.Topfoodtext{
+    font-family: cursive;
+    color: #efa765;
+    font-size: 80px;
+    margin-left: 70px;
+    margin-right: 70px;
+    filter: drop-shadow(0 0 0.95rem black);
+}
+
+.FD1{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.FD1pic{
+    padding-left: 25px;
+    padding-top: 50px;
+}
+
+.FD1Details{
+    color: #ffb168;
+    font-size: 30px;
+    font-family: cursive;
+    padding: 15px;
+    text-align: justify;
+    font-weight:bold;
+}
+
+.FD1ingredients{
+    color: #efa765;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+
+.FD1Garnish{
+    color: #efa765;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    margin-top: 250px;
+    margin-right: 150px;
+}
+
+.LeftIngredient{
+    color: #efa765;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    float: left;
+}
+
+.RightIngredient{
+    color: #efa765;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    float: right;
+    padding-right: 200px;
+}
+
+.Method{
+    height: 300px;
+    width: 100%;
+    background-color: #232533;
+}
 
 
 
