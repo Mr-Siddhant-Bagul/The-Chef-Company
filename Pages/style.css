@@ -570,7 +570,7 @@
     font-size: 20px;
     font-weight:bold;
     float: right;
-    padding-right: 200px;
+    padding-right: 100px;
 }
 
 .Method{
@@ -587,6 +587,7 @@
     font-weight: 300;
     margin-top: 20px;
     margin-bottom: 50px;
+    margin-left: 30px;
 }
 
 .MethodDetails{
@@ -597,6 +598,7 @@
     padding-left: 10px;
     padding-right: 10px;
     text-align: justify;
+    margin-left: 30px;
 }
 
 
