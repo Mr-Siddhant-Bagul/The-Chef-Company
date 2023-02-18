@@ -537,24 +537,22 @@
 
 .FD1Details{
     color: #ffb168;
-    font-size: 30px;
-    font-family: cursive;
+    font-size: 25px;
     padding: 15px;
     text-align: justify;
-    font-weight:bold;
+    font-weight:300;
+    margin-top: 35px;
 }
 
 .FD1ingredients{
     color: #efa765;
     font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight:bold;
+    font-weight:300;
 }
 
 .FD1Garnish{
     color: #efa765;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight:bold;
     margin-top: 250px;
     margin-right: 150px;
@@ -563,7 +561,6 @@
 .LeftIngredient{
     color: #efa765;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight:bold;
     float: left;
 }
@@ -571,7 +568,6 @@
 .RightIngredient{
     color: #efa765;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight:bold;
     float: right;
     padding-right: 200px;
@@ -580,7 +576,27 @@
 .Method{
     height: 300px;
     width: 100%;
-    background-color: #232533;
+    background-color: black;
+}
+
+.MethodFonthead{
+    color: #efa765;
+    font-size: 35px;
+    padding: 10px;
+    text-decoration:double #ffb168;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.MethodDetails{
+    color: #efa765;
+    font-size: 20px;
+    text-align: justify;
+    font-weight: 300;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
 }
 
 
