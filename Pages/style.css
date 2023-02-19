@@ -270,6 +270,7 @@
     margin-left: 15px;
     padding: 5px;
     background-color: #111424;
+    
 }
 .TopDisplay{
     margin-top: 100px; 
@@ -400,6 +401,7 @@
     background-color: #111424;
     margin-right: 35px;
     margin-top: 50px;
+    margin-bottom: 200px;
     border-radius: 25px;
     border: 10px 10px 10px 10px solid white;
 }
@@ -431,7 +433,8 @@
     background-size: cover;
     height: 350px;
     width: 1500px; 
-    display: flex;   
+    display: flex;  
+    margin-top: 200px; 
 }
 
 .FooterAdd{
@@ -500,9 +503,160 @@
     margin-left: 1175px;
     font-size: 30px;
     padding: 5px;
+    margin-bottom: 200px;
 }
 
-    
+.topfood{
+    height: 120px;
+    width: 925px;
+    background-color: #232533;
+    margin-left: 300px;
+    margin-right: 300px;
+    border: #efa765 solid 1px;
+    box-shadow: 5px 5px 5px 5px #111424;
+    margin-bottom: 75px;
+    margin-top: 75px;
+}
+
+.Topfoodtext{
+    font-family: cursive;
+    color: crimson;
+    font-size: 80px;
+    margin-left: 70px;
+    margin-right: 70px;
+    filter: drop-shadow(0 0 0.95rem black);
+}
+
+.FD1{
+    height: 475px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.FD1pic{
+    padding-left: 25px;
+    padding-top: 50px;
+}
+
+.FD1Details{
+    color: #ffb168;
+    font-size: 25px;
+    padding: 15px;
+    text-align: justify;
+    font-weight:300;
+    margin-top: 35px;
+}
+
+.FD1ingredients{
+    color: crimson;
+    font-size: 25px;
+    font-weight:300;
+}
+
+.FD1Garnish{
+    color: #efa765;
+    font-size: 20px;
+    font-weight:bold;
+    margin-top: 250px;
+    margin-right: 150px;
+}
+
+.LeftIngredient{
+    color: #efa765;
+    font-size: 20px;
+    font-weight:bold;
+    float: left;
+}
+
+.RightIngredient{
+    color: #efa765;
+    font-size: 20px;
+    font-weight:bold;
+    float: right;
+    padding-right: 100px;
+}
+
+.Method{
+    height: 300px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background-color: #232533;
+}
+
+.MethodFonthead{
+    color: crimson;
+    font-size: 35px;
+    padding: 10px;
+    text-decoration:double #ffb168;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+
+.MethodDetails{
+    color: #efa765;
+    font-size: 20px;
+    text-align: justify;
+    font-weight: 300;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    margin-left: 30px;
+}
+
+.BuyCart{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.Cartbtn{
+    display: inline-block;
+    height: 50px;
+    width: 250px;
+    color: crimson;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: 300px;
+    padding: 2px;
+    background-color: #111424;
+    box-shadow: 1px 1px 1px 1px #ffb168;
+    border-radius: 25px 0px 25px 0px;
+}
+
+
+.offers{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.ValentineOffer{
+    color: crimson;
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-family:cursive;
+    font-weight: 300;
+}
+
+.Everydayoffer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.mondayoffer{
+    color: crimson;
+    font-size: 35px;
+    margin-top: 20px;
+    font-family:cursive;
+    font-weight: 300;
+    padding-top: 20px;
+}
 
 
 
