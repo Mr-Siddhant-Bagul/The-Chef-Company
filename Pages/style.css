@@ -270,6 +270,7 @@
     margin-left: 15px;
     padding: 5px;
     background-color: #111424;
+    
 }
 .TopDisplay{
     margin-top: 100px; 
@@ -400,6 +401,7 @@
     background-color: #111424;
     margin-right: 35px;
     margin-top: 50px;
+    margin-bottom: 200px;
     border-radius: 25px;
     border: 10px 10px 10px 10px solid white;
 }
@@ -431,7 +433,8 @@
     background-size: cover;
     height: 350px;
     width: 1500px; 
-    display: flex;   
+    display: flex;  
+    margin-top: 200px; 
 }
 
 .FooterAdd{
@@ -500,6 +503,7 @@
     margin-left: 1175px;
     font-size: 30px;
     padding: 5px;
+    margin-bottom: 200px;
 }
 
 .topfood{
