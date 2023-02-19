@@ -220,13 +220,14 @@
     font-size: 40px;
     font-weight: bold;
     margin-left: 150px;
-    margin-right: 300px;
+    margin-right: 425px;
     margin-top: 150px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .FeaturedImg{
     float: right;
+    filter: drop-shadow(0 0 0.55rem rgb(188, 234, 234));
 }
 
 .Featured2{
@@ -244,6 +245,47 @@
     float: left;
     margin-right: 2px;
     margin-left: 60px;
+    filter: drop-shadow(0 0 0.55rem rgb(188, 234, 234));
+}
+
+.TeamCard{
+    display: inline-block;
+    height: 350px;
+    width: 250px;
+    border: 2px solid rgba(0, 0, 0, 0.289);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px grey;
+    margin: 10px;
+    margin-top: 50px;
+    margin-left: 15px;
+    padding: 5px;
+    background-color: rgba(245, 245, 245, 0.601);
+    border-radius: 50px 50px 50px 50px;
+}
+
+.TeamCard:hover{
+    display: inline-block;
+    height: 360px;
+    width: 275px;
+    border: 2px solid rgba(0, 0, 0, 0.289);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px grey;
+    margin: 10px;
+    margin-top: 50px;
+    margin-left: 15px;
+    padding: 5px;
+    background-color: whitesmoke;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.TeamMedia{
+    background-color: whitesmoke;
+    height: 40px;
+    width: 200px;
+    border-radius: 25px 25px 25px 25px;
+    padding: 2px;
+    display: flex; 
+    justify-content: space-evenly; 
 }
 
 .TeamPhoto{
@@ -251,18 +293,19 @@
     padding-top: 5px; 
     padding-left: 15px; 
     padding-right: 15px;
-    filter: drop-shadow(0 0 0.10rem #ffb168);
+    filter: drop-shadow(0 0 0.30rem #111424);
+    border-radius: 50px 50px 50px 50px;
 }
 
 .TeamName{
     font-size: 25px;
-    color: #ffb168;
+    color: #111424;
     font-family: cursive;
 }
 
 .TeamLoc{
-    font-size: 10px;
-    color: #efa765;
+    font-size: 12px;
+    color: #111424;
     font-family: cursive;
 }
 
@@ -289,6 +332,8 @@
 
 .FeaturedImg3{
     float: right;
+    filter: drop-shadow(0 0 0.55rem rgb(188, 234, 234));
+    
 }
 
 .MakeReservation{
@@ -333,33 +378,7 @@
     text-decoration: underline;
 }
 
-.TeamCard{
-    display: inline-block;
-    height: 350px;
-    width: 250px;
-    border: 2px solid rgba(0, 0, 0, 0.289);
-    border-radius: 5px;
-    box-shadow: 2px grey;
-    margin: 10px;
-    margin-top: 50px;
-    margin-left: 15px;
-    padding: 5px;
-    background-color: #111424;
-}
 
-.TeamCard:hover{
-    display: inline-block;
-    height: 360px;
-    width: 275px;
-    border: 2px solid rgba(0, 0, 0, 0.289);
-    border-radius: 5px;
-    box-shadow: 2px grey;
-    margin: 10px;
-    margin-top: 50px;
-    margin-left: 15px;
-    padding: 5px;
-    background-color: #111424;
-}
 
 .TopDisplay{
     margin-top: 100px; 
