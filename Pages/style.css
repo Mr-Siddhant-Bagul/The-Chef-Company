@@ -390,6 +390,7 @@
     margin-top: 05px;
     background-color: azure;
     width: 400px;
+    border-radius: 10px;
     
 }
 
@@ -500,6 +501,10 @@
     margin-left: 1175px;
     font-size: 30px;
     padding: 5px;
+}
+
+.info-container{
+    padding-left: 100px;
 }
 
     
