@@ -259,14 +259,16 @@
     margin-top: 50px;
     margin-left: 15px;
     padding: 5px;
-    background-color: rgba(245, 245, 245, 0.601);
+    background-color: #232533;
     border-radius: 50px 50px 50px 50px;
 }
 
+
+
 .TeamCard:hover{
     display: inline-block;
-    height: 360px;
-    width: 275px;
+    height: 350px;
+    width: 250px;
     border: 2px solid rgba(0, 0, 0, 0.289);
     border-radius: 5px;
     box-shadow: 2px 2px 2px 2px grey;
@@ -279,7 +281,6 @@
 }
 
 .TeamMedia{
-    background-color: whitesmoke;
     height: 40px;
     width: 200px;
     border-radius: 25px 25px 25px 25px;
