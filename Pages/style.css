@@ -16,10 +16,32 @@
     margin-top: 50px;
 }
 
+.Home{
+    color: #ffb168; 
+    text-decoration: none; 
+    margin-left: 150px; 
+    padding: 2px;
+}
+
+.Home:hover{
+    color: #EB455F; 
+    transform: scale(1.1);
+    text-decoration: none; 
+    margin-left: 150px; 
+    padding: 2px;
+}
+
 .ProjectName{
     font-family: cursive;
     font-size: 60px;
     color: black;
+}
+
+.ProjectName:hover{
+    font-family: cursive;
+    transform: scale(1.1);
+    z-index: 2;
+    color: crimson;
 }
 
 .background{
@@ -109,6 +131,27 @@
     filter: drop-shadow(0 0 0.25rem #ffb168);
 }
 
+.SCards:hover{
+    display: inline-block;
+    justify-content: space-evenly;
+    height: 105px;
+    width: 160px;
+    border: 2px solid white;
+    background-color: white;
+    margin-left: 40px;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px white;
+    filter: drop-shadow(0 0 0.50rem #ffb168);
+}
+
+.CardName{
+    font-style: oblique; 
+    font-weight: bold;
+    text-decoration: none;
+    color: #111424;
+}
+
 .Disimages{
     display: flex;
     justify-content: space-between;
@@ -152,6 +195,22 @@
     margin-right: 200px;
     margin-bottom: 100px;
     padding: 20px;
+    box-shadow: 5px 5px 5px 5px #111424;
+    border-radius: 0px 25px 0px 25px;
+}
+
+.BookTableText:hover{
+    display: block;
+    float: right;
+    font-size: 30px;
+    border: 2px solid white;
+    color: white;
+    background-color: #111424;
+    margin-top: 350px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+    padding: 20px;
+    box-shadow: 2px 2px 2px 2px #EB455F;
     border-radius: 0px 25px 0px 25px;
 }
 
@@ -161,13 +220,14 @@
     font-size: 40px;
     font-weight: bold;
     margin-left: 150px;
-    margin-right: 300px;
+    margin-right: 425px;
     margin-top: 150px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .FeaturedImg{
     float: right;
+    filter: drop-shadow(0 0 0.55rem rgb(188, 234, 234));
 }
 
 .Featured2{
@@ -185,6 +245,47 @@
     float: left;
     margin-right: 2px;
     margin-left: 60px;
+    filter: drop-shadow(0 0 0.55rem rgb(188, 234, 234));
+}
+
+.TeamCard{
+    display: inline-block;
+    height: 350px;
+    width: 250px;
+    border: 2px solid rgba(0, 0, 0, 0.289);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px grey;
+    margin: 10px;
+    margin-top: 50px;
+    margin-left: 15px;
+    padding: 5px;
+    background-color: rgba(245, 245, 245, 0.601);
+    border-radius: 50px 50px 50px 50px;
+}
+
+.TeamCard:hover{
+    display: inline-block;
+    height: 360px;
+    width: 275px;
+    border: 2px solid rgba(0, 0, 0, 0.289);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px grey;
+    margin: 10px;
+    margin-top: 50px;
+    margin-left: 15px;
+    padding: 5px;
+    background-color: whitesmoke;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.TeamMedia{
+    background-color: whitesmoke;
+    height: 40px;
+    width: 200px;
+    border-radius: 25px 25px 25px 25px;
+    padding: 2px;
+    display: flex; 
+    justify-content: space-evenly; 
 }
 
 .TeamPhoto{
@@ -192,18 +293,19 @@
     padding-top: 5px; 
     padding-left: 15px; 
     padding-right: 15px;
-    filter: drop-shadow(0 0 0.10rem #ffb168);
+    filter: drop-shadow(0 0 0.30rem #111424);
+    border-radius: 50px 50px 50px 50px;
 }
 
 .TeamName{
     font-size: 25px;
-    color: #ffb168;
+    color: #111424;
     font-family: cursive;
 }
 
 .TeamLoc{
-    font-size: 10px;
-    color: #efa765;
+    font-size: 12px;
+    color: #111424;
     font-family: cursive;
 }
 
@@ -230,6 +332,8 @@
 
 .FeaturedImg3{
     float: right;
+    filter: drop-shadow(0 0 0.55rem rgb(188, 234, 234));
+    
 }
 
 .MakeReservation{
@@ -243,7 +347,23 @@
     margin-left: 200px;
     margin-bottom: 100px;
     padding: 20px;
+    box-shadow: 5px 5px 5px 5px #111424;
     border-radius: 0px 25px 0px 25px;
+}
+
+.MakeReservation:hover{
+    float: right;
+    font-size: 30px;
+    border: 2px solid white;
+    color: white;
+    background-color: #111424;
+    margin-top: 150px;
+    margin-right: 50px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+    padding: 20px;
+    box-shadow: 2px 2px 2px 2px #EB455F;
+    border-radius:25px 0px 25px 0px #efa765;
 }
 
 .Meet{
@@ -258,19 +378,8 @@
     text-decoration: underline;
 }
 
-.TeamCard{
-    display: inline-block;
-    height: 350px;
-    width: 250px;
-    border: 2px solid rgba(0, 0, 0, 0.289);
-    border-radius: 5px;
-    box-shadow: 2px grey;
-    margin: 10px;
-    margin-top: 50px;
-    margin-left: 15px;
-    padding: 5px;
-    background-color: #111424;
-}
+
+
 .TopDisplay{
     margin-top: 100px; 
     display: flex;
@@ -314,6 +423,12 @@
     box-shadow: 5px 5px rgb(69, 17, 17);
 }
 
+.ShopImage:hover{
+    box-shadow: 5px 5px rgb(69, 17, 17);
+    transform: scale(1.1);
+    z-index: 2;
+}
+
 .ShopName{
     font-size: 40px; 
     color: bisque;
@@ -335,6 +450,17 @@
     background-color: #232533;
 }
 
+.Menubtn:hover{
+    height: 85px;
+    width: 155px;
+    border: 2px solid crimson;
+    border-radius: 10%;
+    font-size: 30px;
+    padding: 10px;
+    color: crimson;
+    background-color: #232533;
+}
+
 .Buybtn{
     height: 80px;
     width: 150px;
@@ -343,6 +469,17 @@
     font-size: 30px;
     padding: 10px;
     color: azure;
+    background-color: #232533;
+}
+
+.Buybtn:hover{
+    height: 85px;
+    width: 155px;
+    border: 2px solid crimson;
+    border-radius: 10%;
+    font-size: 30px;
+    padding: 10px;
+    color: crimson;
     background-color: #232533;
 }
 
@@ -401,6 +538,7 @@
     background-color: #111424;
     margin-right: 35px;
     margin-top: 50px;
+    margin-bottom: 200px;
     border-radius: 25px;
     border: 10px 10px 10px 10px solid white;
 }
@@ -432,7 +570,8 @@
     background-size: cover;
     height: 350px;
     width: 1500px; 
-    display: flex;   
+    display: flex;  
+    margin-top: 150px; 
 }
 
 .FooterAdd{
@@ -477,7 +616,12 @@
     color: white;
 }
 
+.Signupdiv2{
+    margin-right: 350px;
+}
+
 .Signupbtn{
+    display: block;
     height: 40px;
     width: 150px;
     border-color: black;
@@ -490,24 +634,213 @@
     padding: 5px;
 }
 
-.loginbtn{
-    height: 40px;
-    width: 150px;
-    border-color: black;
+.Signupbtn:hover{
+    height: 45px;
+    width: 155px;
+    border-color: #0d0f16e4;
     border-radius: 0px 25px 0px 25px;
-    background-color: black;
-    color: #efa765;
+    background-color: #0d0f16e4;
+    color: crimson;
     margin-top: 50px;
-    margin-left: 1175px;
+    margin-left: 180px;
     font-size: 30px;
     padding: 5px;
 }
 
+<<<<<<< HEAD
 .info-container{
     padding-left: 100px;
 }
 
     
+=======
+.logindiv{
+    margin-top: 50px;
+    margin-right: 150px;
+    display: flex;
+}
+
+.loginbtn{
+    display: block;
+    height: 40px;
+    width: 150px;
+    border-color: #111424;
+    border-radius: 0px 25px 0px 25px;
+    background-color: #111424;
+    color: #efa765;
+    margin-top: 15px;
+    margin-left: 1100px;
+    font-size: 30px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.loginbtn:hover{
+    height: 45px;
+    width: 155px;
+    border-color: #0d0d0d;
+    border-radius: 0px 25px 0px 25px;
+    background-color: #0d0f16e4;
+    color: #EB455F;
+    margin-top: 15px;
+    margin-left: 1100px;
+    font-size: 30px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.topfood{
+    height: 120px;
+    width: 925px;
+    background-color: #232533;
+    margin-left: 300px;
+    margin-right: 300px;
+    border: #efa765 solid 1px;
+    box-shadow: 5px 5px 5px 5px #111424;
+    margin-bottom: 75px;
+    margin-top: 75px;
+}
+
+.Topfoodtext{
+    font-family: cursive;
+    color: crimson;
+    font-size: 80px;
+    margin-left: 70px;
+    margin-right: 70px;
+    filter: drop-shadow(0 0 0.95rem black);
+}
+
+.FD1{
+    height: 475px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.FD1pic{
+    padding-left: 25px;
+    padding-top: 50px;
+}
+
+.FD1Details{
+    color: #ffb168;
+    font-size: 25px;
+    padding: 15px;
+    text-align: justify;
+    font-weight:300;
+    margin-top: 35px;
+}
+
+.FD1ingredients{
+    color: crimson;
+    font-size: 25px;
+    font-weight:300;
+}
+
+.FD1Garnish{
+    color: #efa765;
+    font-size: 20px;
+    font-weight:bold;
+    margin-top: 250px;
+    margin-right: 150px;
+}
+
+.LeftIngredient{
+    color: #efa765;
+    font-size: 20px;
+    font-weight:bold;
+    float: left;
+}
+
+.RightIngredient{
+    color: #efa765;
+    font-size: 20px;
+    font-weight:bold;
+    float: right;
+    padding-right: 100px;
+}
+
+.Method{
+    height: 300px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background-color: #232533;
+}
+
+.MethodFonthead{
+    color: crimson;
+    font-size: 35px;
+    padding: 10px;
+    text-decoration:double #ffb168;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+
+.MethodDetails{
+    color: #efa765;
+    font-size: 20px;
+    text-align: justify;
+    font-weight: 300;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    margin-left: 30px;
+}
+
+.BuyCart{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.Cartbtn{
+    display: inline-block;
+    height: 50px;
+    width: 250px;
+    color: crimson;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: 300px;
+    padding: 2px;
+    background-color: #111424;
+    box-shadow: 1px 1px 1px 1px #ffb168;
+    border-radius: 25px 0px 25px 0px;
+}
+
+
+.offers{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.ValentineOffer{
+    color: crimson;
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-family:cursive;
+    font-weight: 300;
+}
+
+.Everydayoffer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.mondayoffer{
+    color: crimson;
+    font-size: 35px;
+    margin-top: 20px;
+    font-family:cursive;
+    font-weight: 300;
+    padding-top: 20px;
+}
+>>>>>>> 3f9ff41658950bdf2dcf98155e463e4f653dff4c
 
 
 
