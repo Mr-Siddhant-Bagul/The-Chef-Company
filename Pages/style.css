@@ -380,7 +380,6 @@
 }
 
 
-
 .TopDisplay{
     margin-top: 100px; 
     display: flex;
@@ -528,6 +527,7 @@
     margin-top: 05px;
     background-color: azure;
     width: 400px;
+    border-radius: 10px;
     
 }
 
@@ -646,6 +646,12 @@
     font-size: 30px;
     padding: 5px;
 }
+
+.HEAD
+.info-container{
+    padding-left: 100px;
+}
+
 
 .logindiv{
     margin-top: 50px;
@@ -833,6 +839,3 @@
     font-weight: 300;
     padding-top: 20px;
 }
-
-
-
